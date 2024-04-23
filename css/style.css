@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+button {
+    margin: 17px 10px 0px 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #922c2c;
+    font-size: 13px;
+    font-family: Verdana;
+}
+
+h3{
+    margin: 20px 10px 5px 10px;
+    font-family: 'Lucida Sans';
+    text-decoration: underline;
+    color: #550202;
+}
+
+h2{
+    font-size: 37px;
+    font-family: Calibri;
+    margin: 5px 5px 5px 5px;
+    display: inline;
+    white-space: pre wrap;
+    color: #550202;
+}
+
+i{
+    font-size: 40px;
+    color: #cb1515;
+}
+
+.container{
+    max-width: 400px;
+    min-height: 420px;
+    background: rgb(190, 200, 214);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 3px rgb(109, 109, 168);
+    font-family: cambria;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    align-items: center;
+    display: grid;
+    gap: 10px;
+    width: 270px; /* Lebar input box */
+    padding: 10px; /* Padding di dalam input box */
+    border: 2px solid #a26262; /* Border input box */
+    border-radius: 5px; /* Mengatur sudut border */
+    box-sizing: border-box;
+    margin: 15px 5px 5px 45px;
+}
+
+.result {
+    font-family: Cambria;
+    white-space: pre-wrap;
+    padding: 5px;
+    text-align: right;
+}
+
