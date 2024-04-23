@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: url('https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg');
+    background-image: url('../assets/img/bg.png');
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
